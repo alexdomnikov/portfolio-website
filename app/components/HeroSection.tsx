@@ -12,7 +12,7 @@ export default function HeroSection() {
 				<h1 className="text-3xl sm:text-4xl font-bold text-white mb-3 sm:mb-4">Alex Domnikov</h1>
 				<p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8">MSCS Candidate at Georgia Tech | Specializing in Computing Systems & Applied AI/ML.</p>
 				<p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base px-4">
-					Former finance professional turned systems-focused engineer, passionate about crafting elegant, AI-powered solutions to real-world business challenges.
+					Former finance professional turned systems-focused engineer. Passionate about crafting elegant, AI-powered solutions to real-world business challenges.
 				</p>
 			</div>
 		</section>
