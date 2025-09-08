@@ -8,7 +8,7 @@ export default function ContactSection() {
 			<div className="max-w-2xl mx-auto">
 				<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center space-y-6">
 					<h2 className="text-2xl font-semibold text-white">Contact</h2>
-					<p className="text-gray-300">Let's build something together.</p>
+					<p className="text-gray-300">Let&apos;s build something together.</p>
 
 					{/* Location */}
 					<div className="flex items-center justify-center gap-2 text-gray-300">
