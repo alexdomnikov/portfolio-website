@@ -5,7 +5,7 @@ export default function SkillsSection() {
 		<section className="bg-gray-800 py-12 sm:py-20">
 			<div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 				<h2 className="text-xl sm:text-2xl font-bold text-white mb-6 sm:mb-8 text-center">Skills & Technologies</h2>
-				<div className="grid grid-cols-3 sm:grid-cols-5 gap-3 sm:gap-4 justify-center">
+				<div className="grid grid-cols-[repeat(auto-fit,_minmax(120px,1fr))] gap-4 justify-center">
 					{skills.map((skill) => (
 						<div
 							key={skill}
