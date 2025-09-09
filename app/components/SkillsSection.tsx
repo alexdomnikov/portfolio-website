@@ -1,11 +1,12 @@
-import { SiCplusplus, SiPython, SiJava, SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiGraphql } from 'react-icons/si';
+import { SiCplusplus, SiPython, SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiGraphql } from 'react-icons/si';
+import { AiOutlineJava } from 'react-icons/ai';
 import { SiReact, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiGit } from 'react-icons/si';
 
 export default function SkillsSection() {
   const languages = [
     { name: 'C++', icon: <SiCplusplus size={40} /> },
     { name: 'Python', icon: <SiPython size={40} /> },
-    { name: 'Java', icon: <SiJava size={40} /> },
+    { name: 'Java', icon: <AiOutlineJava size={40} /> },
     { name: 'HTML', icon: <SiHtml5 size={40} /> },
     { name: 'CSS', icon: <SiCss3 size={40} /> },
     { name: 'Javascript', icon: <SiJavascript size={40} /> },
