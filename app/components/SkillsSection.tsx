@@ -18,7 +18,7 @@ export default function SkillsSection() {
 				</div>
 			</div>
 
-		<h2 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-4 mt-2 sm:mt-4 text-center">Libraries, Frameworks, and Tools</h2>
+		<h2 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-4 mt-4 sm:mt-6 text-center">Libraries, Frameworks, and Tools</h2>
 				<div className="flex flex-wrap justify-center gap-4">
 					{tools.map((tool) => (
 						<div
