@@ -7,7 +7,7 @@ export default function HeroSection() {
 		<section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
 			<div className="text-center">
 				<div className="mb-3 sm:mb-4">
-					<Image src="/portrait.jpg" alt="Profile Picture" width={120} height={120} className="rounded-full mx-auto border-4 border-gray-700 shadow-lg" />
+					<Image src="/portrait.jpg" alt="Profile Picture" width={240} height={240} className="rounded-full mx-auto border-4 border-gray-700 shadow-lg" />
 				</div>
 				<h1 className="text-3xl sm:text-4xl font-bold text-white mb-3 sm:mb-4">Alex Domnikov</h1>
 				<p className="text-lg sm:text-xl text-gray-300 mb-1 sm:mb-2">MSCS Candidate at Georgia Tech | Specializing in Computing Systems & Applied AI/ML.</p>
