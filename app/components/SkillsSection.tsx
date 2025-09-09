@@ -34,7 +34,7 @@ export default function SkillsSection() {
           {languages.map((lang) => (
             <div
               key={lang.name}
-              className="bg-gray-700 p-4 sm:p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow hover:shadow-gray-500 text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
+              className="bg-gray-700 p-4 sm:p-6 w-32 sm:w-40 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow hover:shadow-gray-500 text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
             >
               {lang.icon}
               <span>{lang.name}</span>
@@ -47,7 +47,7 @@ export default function SkillsSection() {
           {tools.map((tool) => (
             <div
               key={tool.name}
-              className="bg-gray-700 p-4 sm:p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow hover:shadow-gray-500 text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
+              className="bg-gray-700 p-4 sm:p-6 w-32 sm:w-40 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow hover:shadow-gray-500 text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
             >
               {tool.icon}
               <span>{tool.name}</span>
@@ -60,7 +60,7 @@ export default function SkillsSection() {
           {technologies.map((tech) => (
             <div
               key={tech.name}
-              className="bg-gray-700 p-4 sm:p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow hover:shadow-gray-500 text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
+              className="bg-gray-700 p-4 sm:p-6 w-32 sm:w-40 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow hover:shadow-gray-500 text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
             >
               {tech.icon}
               <span>{tech.name}</span>
