@@ -6,7 +6,7 @@ export default function ContactSection() {
 	return (
 		<section className="py-16 px-4 border-t border-gray-800">
 			<div className="max-w-2xl mx-auto">
-				<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center space-y-6">
+				<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center space-y-4">
 					<h2 className="text-2xl font-semibold text-white">Contact</h2>
 					<p className="text-gray-300">Let&apos;s build something together.</p>
 
