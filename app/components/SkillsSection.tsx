@@ -19,8 +19,11 @@ export default function SkillsSection() {
     { name: 'Node.js', icon: <SiNodedotjs size={40} /> },
     { name: 'Next.js', icon: <SiNextdotjs size={40} /> },
     { name: 'TailwindCSS', icon: <SiTailwindcss size={40} /> },
-    { name: 'PostgreSQL', icon: <SiPostgresql size={40} /> },
     { name: 'Git', icon: <SiGit size={40} /> },
+  ];
+
+  const technologies = [
+	{ name: 'PostgreSQL', icon: <SiPostgresql size={40} /> },
   ];
 
   return (
@@ -48,6 +51,19 @@ export default function SkillsSection() {
             >
               {tool.icon}
               <span>{tool.name}</span>
+            </div>
+          ))}
+        </div>
+
+		<h2 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-4 mt-4 sm:mt-6 text-center">Other Technologies</h2>
+        <div className="flex flex-wrap justify-center gap-4">
+          {technologies.map((tech) => (
+            <div
+              key={tech.name}
+              className="bg-gray-700 p-4 sm:p-6 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow hover:shadow-gray-500 text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
+            >
+              {tech.icon}
+              <span>{tech.name}</span>
             </div>
           ))}
         </div>
