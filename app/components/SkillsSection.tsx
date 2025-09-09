@@ -1,5 +1,5 @@
 import { SiCplusplus, SiPython, SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiGraphql } from 'react-icons/si';
-import { AiOutlineJava } from 'react-icons/ai';
+import { AiOutlineJava, AiOutlineConsoleSql } from 'react-icons/ai';
 import { SiReact, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiGit } from 'react-icons/si';
 
 export default function SkillsSection() {
@@ -10,7 +10,7 @@ export default function SkillsSection() {
     { name: 'HTML', icon: <SiHtml5 size={40} /> },
     { name: 'CSS', icon: <SiCss3 size={40} /> },
     { name: 'Javascript', icon: <SiJavascript size={40} /> },
-    { name: 'SQL', icon: <SiPostgresql size={40} /> },
+    { name: 'SQL', icon: <AiOutlineConsoleSql size={40} /> },
     { name: 'GraphQL', icon: <SiGraphql size={40} /> },
   ];
 
