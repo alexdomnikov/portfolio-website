@@ -1,6 +1,9 @@
-import { SiCplusplus, SiPython, SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiFlask } from 'react-icons/si';
-import { AiOutlineJava, AiOutlineConsoleSql } from 'react-icons/ai';
-import { SiReact, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiGit } from 'react-icons/si';
+import { 
+  SiCplusplus, SiPython, SiHtml5, SiCss3, SiJavascript, SiPostgresql,
+  SiReact, SiNextdotjs, SiTailwindcss, SiFlask, SiGit
+} from 'react-icons/si';
+
+import { AiOutlineJava, AiOutlineConsoleSql, AiFillFileExcel } from 'react-icons/ai';
 
 export default function SkillsSection() {
   const languages = [
@@ -10,12 +13,12 @@ export default function SkillsSection() {
     { name: 'HTML', icon: <SiHtml5 size={40} /> },
     { name: 'CSS', icon: <SiCss3 size={40} /> },
     { name: 'Javascript', icon: <SiJavascript size={40} /> },
+    { name: 'VBA', icon: <AiFillFileExcel size={40} /> },
     { name: 'SQL', icon: <AiOutlineConsoleSql size={40} /> },
   ];
 
   const tools = [
     { name: 'React', icon: <SiReact size={40} /> },
-    { name: 'Node.js', icon: <SiNodedotjs size={40} /> },
     { name: 'Next.js', icon: <SiNextdotjs size={40} /> },
     { name: 'TailwindCSS', icon: <SiTailwindcss size={40} /> },
     { name: 'Flask', icon: <SiFlask size={40} /> },
