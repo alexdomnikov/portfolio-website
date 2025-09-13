@@ -11,7 +11,6 @@ export default function SkillsSection() {
     { name: 'CSS', icon: <SiCss3 size={40} /> },
     { name: 'Javascript', icon: <SiJavascript size={40} /> },
     { name: 'SQL', icon: <AiOutlineConsoleSql size={40} /> },
-    { name: 'GraphQL', icon: <SiGraphql size={40} /> },
   ];
 
   const tools = [
@@ -19,6 +18,7 @@ export default function SkillsSection() {
     { name: 'Node.js', icon: <SiNodedotjs size={40} /> },
     { name: 'Next.js', icon: <SiNextdotjs size={40} /> },
     { name: 'TailwindCSS', icon: <SiTailwindcss size={40} /> },
+    { name: 'Flask', icon: <SiFlask size={40} /> },
     { name: 'Git', icon: <SiGit size={40} /> },
   ];
 
