@@ -1,4 +1,4 @@
-import { SiCplusplus, SiPython, SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiGraphql } from 'react-icons/si';
+import { SiCplusplus, SiPython, SiHtml5, SiCss3, SiJavascript, SiPostgresql, SiFlask } from 'react-icons/si';
 import { AiOutlineJava, AiOutlineConsoleSql } from 'react-icons/ai';
 import { SiReact, SiNodedotjs, SiNextdotjs, SiTailwindcss, SiGit } from 'react-icons/si';
 
