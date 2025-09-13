@@ -66,6 +66,7 @@ export default function ContactSection() {
 							</svg>
 						</a>
 					</div>
+					<p>&copy; 2025 All rights reserved.</p>
 				</motion.div>
 			</div>
 		</section>
