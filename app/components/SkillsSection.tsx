@@ -1,6 +1,6 @@
 import { 
-  SiCplusplus, SiPython, SiHtml5, SiCss3, SiJavascript, SiPostgresql,
-  SiReact, SiNextdotjs, SiTailwindcss, SiFlask, SiGit
+  SiCplusplus, SiPython, SiHtml5, SiCss3, SiJavascript,
+  SiReact, SiNextdotjs, SiTailwindcss, SiFlask, SiGit, SiSqlite
 } from 'react-icons/si';
 
 import { AiOutlineJava, AiOutlineConsoleSql, AiFillFileExcel } from 'react-icons/ai';
@@ -26,7 +26,7 @@ export default function SkillsSection() {
   ];
 
   const technologies = [
-	{ name: 'PostgreSQL', icon: <SiPostgresql size={40} /> },
+	{ name: 'SQLite', icon: <SiSqlite size={40} /> },
   ];
 
   return (
