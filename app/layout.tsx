@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Alex Domnikov - Software Engineer',
+	title: 'Alexander Domnikov Jr. - Software Engineer',
 	description:
 		'Welcome to my portfolio website! I am a systems-focused engineer who is passionate about crafting elegant, AI-powered solutions to real-world business challenges.',
 	keywords: [
@@ -23,10 +23,15 @@ export const metadata: Metadata = {
 		'Coder',
 		'Clean Code',
 		'Simple Design',
+		'CPlusPlus',
+		'C++',
+		'Python',
+		'Java',
 		'JavaScript',
 		'TypeScript',
 		'React',
 		'Next.js',
+		'Flask',
 		'User Experience',
 		'Problem Solving',
 		'Effective Solutions',
@@ -36,20 +41,25 @@ export const metadata: Metadata = {
 		'Backend Development',
 		'Fullstack Development',
 		'Alex Domnikov',
+		'Alex Domnikov Jr',
+		'Alex Domnikov Jr.',
+		'Alexander Domnikov',
+		'Alexander Domnikov Jr',
+		'Alexander Domnikov Jr.',
 	],
-	authors: [{ name: 'Alex Domnikov' }],
-	creator: 'Alex Domnikov',
+	authors: [{ name: 'Alexander Domnikov Jr.' }],
+	creator: 'Alexander Domnikov Jr.',
 	openGraph: {
-		title: 'Alex Domnikov - Software Developer Portfolio',
-		description: 'Passionate systems-focused developer creating effective AI-powered solutions. Explore my projects and development approach.',
+		title: 'Alexander Domnikov Jr. - Software Developer Portfolio',
+		description: 'Passionate systems-focused developer creating effective AI/ML-powered solutions. Explore my projects and development approach.',
 		url: 'https://alexdomnikov.com',
-		siteName: 'Alex Domnikov - Software Engineer Portfolio',
+		siteName: 'Alexander Domnikov Jr. - Software Developer Portfolio',
 		images: [
 			{
 				url: '/portrait.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'Alex Domnikov - Software Developer Portfolio',
+				alt: 'Alexander Domnikov Jr. - Software Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
