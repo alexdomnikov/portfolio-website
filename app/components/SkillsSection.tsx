@@ -1,6 +1,7 @@
 import { 
   SiCplusplus, SiPython, SiHtml5, SiCss3, SiJavascript,
-  SiReact, SiNextdotjs, SiTailwindcss, SiFlask, SiGit, SiSqlite
+  SiReact, SiNextdotjs, SiTailwindcss, SiFlask, SiGit, SiSqlite,
+  SiBootstrap
 } from 'react-icons/si';
 
 import { AiOutlineJava, AiOutlineConsoleSql, AiFillFileExcel } from 'react-icons/ai';
@@ -21,6 +22,7 @@ export default function SkillsSection() {
     { name: 'React', icon: <SiReact size={40} /> },
     { name: 'Next.js', icon: <SiNextdotjs size={40} /> },
     { name: 'TailwindCSS', icon: <SiTailwindcss size={40} /> },
+    { name: 'Bootstrap', icon: <SiBootstrap size={40} /> },
     { name: 'Flask', icon: <SiFlask size={40} /> },
     { name: 'Git', icon: <SiGit size={40} /> },
   ];
