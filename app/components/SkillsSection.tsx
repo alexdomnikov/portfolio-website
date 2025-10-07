@@ -1,7 +1,7 @@
 import { 
   SiCplusplus, SiPython, SiHtml5, SiCss3, SiJavascript,
   SiReact, SiNextdotjs, SiTailwindcss, SiFlask, SiGit, SiSqlite,
-  SiBootstrap
+  SiBootstrap, SiPlotly
 } from 'react-icons/si';
 
 import { AiOutlineJava, AiOutlineConsoleSql, AiFillFileExcel } from 'react-icons/ai';
@@ -25,6 +25,7 @@ export default function SkillsSection() {
     { name: 'Bootstrap', icon: <SiBootstrap size={40} /> },
     { name: 'Flask', icon: <SiFlask size={40} /> },
     { name: 'Git', icon: <SiGit size={40} /> },
+    { name: 'Plotly', icon: <SiPlotly size={40}/>},
   ];
 
   const technologies = [
