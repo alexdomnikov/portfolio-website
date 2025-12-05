@@ -33,14 +33,14 @@ export default function SkillsSection() {
   ];
 
   return (
-    <section className="bg-gray-800 py-12 sm:py-20">
+    <section className="bg-gray-800 pt-6 pb-6 sm:pt-8 sm:pb-8">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-4 text-center">Languages</h2>
         <div className="flex flex-wrap justify-center gap-4">
           {languages.map((lang) => (
             <div
               key={lang.name}
-              className="bg-gray-700 p-4 sm:p-6 w-32 sm:w-40 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow hover:shadow-gray-500 text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
+              className="bg-gray-700 p-4 sm:p-6 w-32 sm:w-40 rounded-lg shadow-sm text-center text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
             >
               {lang.icon}
               <span>{lang.name}</span>
@@ -53,7 +53,7 @@ export default function SkillsSection() {
           {tools.map((tool) => (
             <div
               key={tool.name}
-              className="bg-gray-700 p-4 sm:p-6 w-32 sm:w-40 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow hover:shadow-gray-500 text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
+              className="bg-gray-700 p-4 sm:p-6 w-32 sm:w-40 rounded-lg shadow-sm text-center text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
             >
               {tool.icon}
               <span>{tool.name}</span>
@@ -66,7 +66,7 @@ export default function SkillsSection() {
           {technologies.map((tech) => (
             <div
               key={tech.name}
-              className="bg-gray-700 p-4 sm:p-6 w-32 sm:w-40 rounded-lg shadow-sm text-center hover:shadow-md transition-shadow hover:shadow-gray-500 text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
+              className="bg-gray-700 p-4 sm:p-6 w-32 sm:w-40 rounded-lg shadow-sm text-center text-sm sm:text-base text-gray-200 flex flex-col items-center gap-2"
             >
               {tech.icon}
               <span>{tech.name}</span>

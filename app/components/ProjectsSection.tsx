@@ -19,34 +19,39 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <div className="flex flex-wrap justify-center gap-6 px-4 py-8 sm:py-10">
-      {projects.map((project) => (
-        <a
-          key={project.title}
-          href={project.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full sm:w-[48%] lg:w-[30%] max-w-sm bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform transition-shadow duration-200 hover:-translate-y-1 hover:shadow-xl hover:shadow-white/20 cursor-pointer block"
-        >
-          <div className="aspect-video bg-gray-700 relative">
-            <Image
-              src={project.image}
-              alt={project.title}
-              fill
-              className="object-cover"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            />
-          </div>
-          <div className="p-4 sm:p-6">
-            <h3 className="text-base sm:text-lg font-semibold text-white mb-2">
-              {project.title}
-            </h3>
-            <p className="text-sm sm:text-base text-gray-300 mb-4">
-              {project.description}
-            </p>
-          </div>
-        </a>
-      ))}
-    </div>
+    <section id="projects" className="px-4 py-6 sm:py-8">
+      <h2 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-4 text-center">
+        Projects
+      </h2>
+      <div className="flex flex-wrap justify-center gap-6">
+        {projects.map((project) => (
+          <a
+            key={project.title}
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-[48%] lg:w-[30%] max-w-sm bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform transition-shadow duration-200 hover:-translate-y-1 hover:shadow-xl hover:shadow-white/20 cursor-pointer block"
+          >
+            <div className="aspect-video bg-gray-700 relative">
+              <Image
+                src={project.image}
+                alt={project.title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              />
+            </div>
+            <div className="p-3 sm:p-4">
+              <h3 className="text-base sm:text-lg font-semibold text-white mb-1">
+                {project.title}
+              </h3>
+              <p className="text-sm sm:text-base text-gray-300 mb-2 leading-snug">
+                {project.description}
+              </p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
   );
 }
