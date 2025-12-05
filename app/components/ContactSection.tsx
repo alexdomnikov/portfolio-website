@@ -51,12 +51,13 @@ export default function ContactSection() {
 				</motion.div>
 			</div>
 			<div className="mt-4 flex justify-end">
-				<a
-					href="#"
+				<button
+					type="button"
+					onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
 					className="inline-flex items-center justify-center px-4 py-2 border border-gray-600 text-gray-300 text-sm font-medium rounded hover:bg-gray-300 hover:text-gray-900 transition-colors"
 				>
 					Back to top
-				</a>
+				</button>
 			</div>
 		</section>
 	);
