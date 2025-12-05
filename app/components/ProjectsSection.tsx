@@ -2,6 +2,13 @@ import Image from 'next/image';
 
 const projects = [
   {
+    title: "Ephemeral Notes Feature for URL Shortener",
+    image: "/Ephemeral_Notes.png",
+    description:
+      "Stateless self-destructing messaging feature built on a forked open-source URL shortener. Compresses text into URL hashes and leverages existing Redis TTL for 30-minute expiration. Built with TypeScript, Qwik, and NestJS.",
+    link: "https://github.com/alexdomnikov/reduced.to",
+  },
+  {
     title: "Full-Stack Stock Price Tracker & Visualization App",
     image: "/SPT_Dashboard.png",
     description:
@@ -12,11 +19,11 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="flex flex-wrap justify-center gap-6 px-4 py-8 sm:py-10">
       {projects.map((project) => (
         <div
           key={project.title}
-          className="bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+          className="w-full sm:w-[48%] lg:w-[30%] max-w-sm bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
         >
           <div className="aspect-video bg-gray-700 relative">
             <Image
