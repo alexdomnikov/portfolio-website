@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+	metadataBase: new URL('https://alexdomnikov.com'),
 	title: 'Alexander Domnikov Jr. - Software Engineer',
 	description:
 		'Welcome to my portfolio website! I am a systems-focused engineer who is passionate about crafting elegant, AI-powered solutions to real-world business challenges.',
@@ -76,6 +77,12 @@ export const metadata: Metadata = {
 			'max-snippet': -1,
 		},
 	},
+};
+
+export const viewport = {
+	width: 'device-width',
+	initialScale: 1,
+	maximumScale: 5,
 };
 
 export default function RootLayout({

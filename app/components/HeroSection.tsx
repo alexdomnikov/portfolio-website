@@ -14,6 +14,7 @@ export default function HeroSection() {
 						alt="Profile Picture"
 						width={240}
 						height={240}
+						priority
 						className="rounded-full mx-auto border-[3px] border-gray-600/80 shadow-xl"
 					/>
 				</div>
