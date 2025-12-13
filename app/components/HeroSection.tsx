@@ -23,12 +23,12 @@ export default function HeroSection() {
 				<div className="mb-5 sm:mb-6">
 					<p className="inline-flex items-center rounded-full bg-gray-800/70 border border-gray-700 px-4 py-1.5 text-xs sm:text-sm text-gray-200 tracking-wide uppercase">
 						<span className="h-2 w-2 rounded-full bg-emerald-400 mr-2" />
-						Full-Stack Engineer ∣ MSCS Candidate, Georgia Tech
+						AI/ML Engineer • Backend Software Engineer • MSCS Candidate, Georgia Tech
 					</p>
 				</div>
 				<div className="max-w-3xl px-2 sm:px-4 mb-6 sm:mb-8">
 					<p className="text-sm sm:text-base text-gray-300 leading-relaxed">
-						Drawing on my investment analysis background, I combine strategic thinking with strong engineering skills to design and build robust software.
+					I build ML-driven applications and backend services. Former investment analyst, current MSCS candidate at Georgia Tech.
 					</p>
 				</div>
 				<div className="flex flex-wrap justify-center gap-6 sm:gap-8">

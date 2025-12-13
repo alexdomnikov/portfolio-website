@@ -1,16 +1,14 @@
-[00:00:02.111] Server  LOG     
-[00:00:02.112] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:02.112] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:02.112] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:02.113] Server  LOG     
-[00:00:02.113] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:02.113] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:02.113] Server  LOG     
-[00:00:02.175] Server  LOG      ✓ Ready in 1993ms
-[00:00:07.681] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:00:07.957] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.744] Browser WARN    Image with src "/portrait.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:02.254] Server  LOG      ✓ Ready in 2.1s
+[00:00:13.654] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:13.931] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.741] Browser WARN    Image with src "/portrait.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:01:48.396] Server  LOG      ✓ Compiled in 36ms
+[01:06:26.344] Server  LOG      ✓ Compiled in 76ms
+[01:06:29.356] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[01:06:29.544] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:03.715] Server  LOG      ✓ Compiled in 45ms
+[02:08:17.998] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[02:08:18.181] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:13:03.765] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:13:04.033] Browser WARN    Image with src "/Ephemeral_Notes.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

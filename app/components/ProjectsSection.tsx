@@ -21,7 +21,7 @@ export default function ProjectsSection() {
   return (
     <section id="projects" className="px-4 py-6 sm:py-8">
       <h2 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-4 text-center">
-        Projects
+        Personal Projects
       </h2>
       <div className="flex flex-wrap justify-center gap-6">
         {projects.map((project) => (
